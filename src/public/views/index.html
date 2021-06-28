@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"> </script>
+     
+   -->
+  <script src="/script.js"></script>
+
+</head>
+<body>
+
+
+
+
+  
+
+    <div class="d-flex justify-content-center" style="padding-top: 30px">
+        <img src="https://cliply.co/wp-content/uploads/2020/04/422004530_MAIL_BOX_3D_ICON_400px.gif" alt="Icon" style="width:200px;height:200px;">
+        </div>
+        
+        
+        <!-- intro text -->
+        <div class="container" style="padding-top: 15px; padding-bottom: 5px">
+          <div class="row justify-content-center">
+            <div class="col-sm-8 text-center">
+                      <h1><b><b>CHECK IF <span class="text-info">ANY</span> EMAIL <i>EXISTS.</i></b></b></h1>
+                        <p class="text-muted"><b><b>Yes, really.</b></b> Checks 11 different indicators, including MX Records and SMTP.</p>
+        
+        </div></div></div>
+        
+        
+        
+
+
+
+
+  <!-- search box -->
+
+  <div class="row justify-content-md-center"><div class="col-sm-5">	<div class="container" style="padding-top: 5px"><div class="row align-items-center">
+
+    <div class="input-group mb-3; shadow p-3 mb-5 bg-white rounded">
+      <input type="text" id="content"class="form-control"  placeholder="Type the full email here.." aria-label="Recipient's username" aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-info text-dark" type="button" id="search"><b><b>LET'S GO 🚀</b></b></button>
+      <!-- </div> -->
+      </div>
+    </div>
+    
+    </div></div></div></div>
+    
+    
+    
+<!-- intro text -->
+<div class="container" style="padding-bottom: 5px">
+  <div class="row justify-content-center">
+    <div class="col-sm-8 text-center">
+				<p class="text-muted"><b>Note:</b> please wait up to 3 seconds for results.</p>
+
+</div></div></div>
+
+
+    
+    
+    
+    <!-- 
+          <div class="container" id="grey"></div>
+       -->
+    
+     <div id="grey1">
+      </div>
+    
+      
+    
+    <script>
+      // data()
+      //   data()
+    
+    
+    $( "#search" ).click(function() {
+    let bla = $('#content').val();
+    console.log(bla)
+    
+    
+    ;( async () => {
+    
+    //let data = 0
+    
+    
+    
+    
+     let data = await getData(bla)
+     console.log(data)
+      await render(data)
+    
+    
+      })();
+    
+    });
+    
+      </script>
+    
+    
+    
+    <hr>
+    
+    
+    
+
+
+    <div class="container" style="padding-top: 15px; padding-bottom: 25px">
+      <div class="row justify-content-center">
+    
+    
+    
+    <div class="card col-sm-5">
+      <div class="card-body">
+    
+                                          <div class="row justify-content-center">
+                    <h1 class="card-title ">📨</h1>
+                    </div>
+                                          <div class="row justify-content-center">
+        <h3 class="card-title"><b><b>HOW IT WORKS</b></b></h3>
+        </div>
+        <p class="card-text">
+    
+    <p>Use this website to predict the likelihood an email will return as a <strong>hard bounce</strong>.</p>
+    <p>We identify possible spam traps and other email address discrepancies before they&rsquo;re flagged by Internet Service Providers (ISPs) or Email Service Providers (ESPs) and cause <span style="text-decoration: underline;">permanent damage to your reputation.</span></p>
+    <p>In other words, we help find out if any email exists to improve deliverability, helping you reach your customers or anyone else you'd like to reach out to.</p>
+    <p><strong>We use a sophisticated email verification system to check for syntax regularity. </strong></p>
+    
+    
+                                          <div class="row justify-content-center" style="padding-top: 10px">
+                    <h1 class="card-title ">📩</h1>
+                    </div>
+    
+    
+                                          <div class="row justify-content-center" style="padding-bottom: 10px">
+        <h3 class="card-title"><b><b>HOW WE'RE DIFFERENT</b></b></h3>
+        </div>
+    
+    <p>But unlike standard email verification, we take a deep dive into the MX Records and SMTP to verify if a email truly does exist.</p>
+    <p>Along with <span style="text-decoration: underline;">9 other data</span> points such if it's a disposable email and so on.</p>
+    <p><strong>In the end every email is handed a quality score you can trust.</strong></p>
+        
+        
+                                              <div class="row justify-content-center" style="padding-top: 10px">
+                    <h1 class="card-title ">📤</h1>
+                    </div>
+    
+    
+                                          <div class="row justify-content-center" style="padding-bottom: 10px">
+        <h3 class="card-title"><b><b>LOVE THIS PROJECT?</b></b></h3>
+        </div>
+        
+        
+    
+    
+        <!-- title -->
+    
+    <div class="container" style="padding-top: 10px;padding-bottom: 5px">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 text-center">
+    
+    <button onclick="location.href='https://gregembry.carrd.co'" type="button" class="btn btn-outline-secondary"><b>About the Author</b></button>
+    </div></div></div>
+    
+    
+        
+        </p>
+      </div>
+    </div>
+    
+    
+    </div></div>
+    
+    
+    
+    
+    <hr>
+    
+
+
+
+
+
+</body>
+</html>
