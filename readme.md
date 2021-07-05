@@ -20,3 +20,8 @@ Also gives a direct score, checking many different variables to find quality sco
 - [x] Ngrok for load balancing and and URL forwarding
 - [x] PM2 for process management 
 
+## To work on next
+
+- [x] Add sanatization, XML attack protection, and other security precautions
+- [ ] Seperate routes and middleware to different files
+- [ ] Add loading animation during email checking process
