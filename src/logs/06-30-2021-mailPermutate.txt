@@ -1,0 +1,47 @@
+30 02:31 mailPermutate - Requested [object Object]
+30 02:32 mailPermutate - Requested [object Object]
+30 02:33 mailPermutate - Requested [object Object]
+30 02:53 mailPermutate - Requested greg em br
+30 02:55 mailPermutate - Requested g r e
+30 02:58 mailPermutate - Requested 1 2 3
+30 03:09 mailPermutate - Requested 1 2 3
+30 03:10 mailPermutate - Requested 1 2 3
+30 03:14 mailPermutate - Requested 1 2 3
+30 03:23 mailPermutate - Requested 1 2 3
+30 03:23 mailPermutate - Requested 1 2 3
+30 03:24 mailPermutate - Requested 1 2 3
+30 03:24 mailPermutate - Requested 1 2 3
+30 03:24 mailPermutate - Requested 1 2 3
+30 03:24 mailPermutate - Requested 12 3
+30 03:25 mailPermutate - Requested  3 4 5
+30 03:37 mailPermutate - Requested 1 2 3
+30 03:37 mailPermutate - Requested 1 2 3
+30 03:37 mailPermutate - Requested 1 2 3
+30 03:37 mailPermutate - Requested 1 2 3
+30 03:39 mailPermutate - Requested 1 2 3
+30 03:40 mailPermutate - Requested john smith @company.com
+30 03:41 mailPermutate - Requested john smith @company.com
+30 03:41 mailPermutate - Requested john smith @company.com
+30 03:42 mailPermutate - Requested j smith @company.com
+30 03:42 mailPermutate - Requested j smith @company.com
+30 03:42 mailPermutate - Requested j smith @company.com
+30 03:42 mailPermutate - Requested j smith @company.com
+30 03:42 mailPermutate - Requested j smith @company.com
+30 03:43 mailPermutate - Requested john smith @company
+30 03:43 mailPermutate - Requested hi you @hi.com
+30 03:44 mailPermutate - Requested hiyou@hi.com
+30 03:44 mailPermutate - Requested hiyou@fmf.com
+30 03:54 mailPermutate - Requested poopeflkjalpdkfad
+30 03:56 mailPermutate - Requested dfsdksfksfgopjgf
+30 03:56 mailPermutate - ERROR TypeError: Cannot read property 'substring' of undefined
+30 03:58 mailPermutate - Requested sdfsfdsdfsdf
+30 03:58 mailPermutate - ERROR TypeError: Cannot read property 'substring' of undefined
+30 04:09 mailPermutate - Requested john smith @cpmpany.cpm
+30 04:09 mailPermutate - Requested john smith @cpmpany.cpm
+30 04:09 mailPermutate - Requested john smith @cpmpany.cpm
+30 04:31 mailPermutate - Requested jhon smith @company.com
+30 04:32 mailPermutate - Requested hey there @gmail.com
+30 04:33 mailPermutate - Requested hey there @gmail.com
+30 04:33 mailPermutate - Requested hey there @gmail.com
+30 04:33 mailPermutate - Requested hi a @gmail.com
+30 05:12 mailPermutate - Requested jordan alerts @gmail.com
