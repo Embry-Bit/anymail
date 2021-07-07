@@ -16,6 +16,7 @@ Also gives a direct score, checking many different variables to find quality sco
 - Tracks up to 11 different data points including MX records and SMTP to validate if an email exists
 - Also checks if it’s a free email, disposable email, valid format, and more to give a .1 - 1 quality score
 - Long term storage of all indicators, the email requested, and date using mongoDB
+- Unit testing using Mocha and Chai for validation and permutation
 
 
 ## Tech Stack
@@ -27,6 +28,7 @@ Also gives a direct score, checking many different variables to find quality sco
 - Express for middleware, routes, and server management
 - Vultr for cloud hosting 
 - Ngrok for load balancing and and URL forwarding
+- Mocha and Chai for unit testing
 - PM2 for process management 
 
 ## To work on next
