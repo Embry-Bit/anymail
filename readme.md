@@ -1,7 +1,7 @@
 ## Live site https://www.anymail.ga/
 ## About
 
-Full fledged email testing app, works with any mail you can think of. Includes email permutator that gives over 40 different email combinations to try verification for.
+Robust full stack app to validate if any email exists, works with any mail you can think of. Includes email permutator that gives over 40 different email combinations to try verification for.
 
 ### Works on any email service provider out there, including:
 
